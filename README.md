@@ -11,3 +11,6 @@ Create an image of a clock with one moving hand.
 [Solution](./src/clock.js)
 
 ### 100 clocks
+Create a 10 x 10 grid of one-handed clocks, with the hands using different offsets.
+
+[Solution](./src/hundredclocks.js)
