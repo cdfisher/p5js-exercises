@@ -20,11 +20,11 @@ function draw() {
         var localX = i * d + 25;
         var localY = j * d + 25;
         circle(localX, localY, 40);
+        push();
         translate(localX, localY);
         rotate(0.02 * t + offsets[i][j]);
         line(0, 0, 10, 10);
-        rotate(-(0.02 * t + offsets[i][j]));
-        translate(-localX, -localY);
+        pop();
     }
   }
   t += 1;
