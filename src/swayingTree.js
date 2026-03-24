@@ -43,6 +43,4 @@ function draw() {
   stroke(0);
   strokeWeight(2);
   branch(100)
-
-
 }
